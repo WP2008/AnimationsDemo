@@ -46,22 +46,7 @@
     _maskLayer.fillColor = [UIColor blackColor].CGColor;
     _maskLayer.strokeColor = [UIColor clearColor].CGColor;
     _maskLayer.frame = self.bounds;
-    _maskLayer.contentsCenter = CGRectMake(0.5, 0.5, 0.1, 0.1);
     _maskLayer.contentsScale = [UIScreen mainScreen].scale;  //非常关键设置自动拉伸的效果且不变形
-    
-    
-    /**
-     *   第二种方法   设置  layer.contents 实现遮罩
-     */
-    
-    //    _maskLayer = [CAShapeLayer layer];
-    //    _maskLayer.fillColor = [UIColor blackColor].CGColor;
-    //    _maskLayer.strokeColor = [UIColor clearColor].CGColor;
-    //    _maskLayer.frame = self.bounds;
-    //    _maskLayer.contentsCenter = CGRectMake(0.5, 0.5, 0.1, 0.1);
-    //    _maskLayer.contentsScale = [UIScreen mainScreen].scale;                 //非常关键设置自动拉伸的效果且不变形
-    //    _maskLayer.contents = (id)[UIImage imageNamed:@"gray_bubble_right"].CGImage;
-    //
     
     
     _contentLayer = [CALayer layer];

@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		F7B976371D3FB06F00228EAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976361D3FB06F00228EAE /* main.m */; };
 		F7B9763A1D3FB06F00228EAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976391D3FB06F00228EAE /* AppDelegate.m */; };
-		F7B9763D1D3FB06F00228EAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9763C1D3FB06F00228EAE /* ViewController.m */; };
-		F7B976401D3FB06F00228EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B9763E1D3FB06F00228EAE /* Main.storyboard */; };
 		F7B976421D3FB06F00228EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B976411D3FB06F00228EAE /* Assets.xcassets */; };
 		F7B976451D3FB06F00228EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B976431D3FB06F00228EAE /* LaunchScreen.storyboard */; };
 		F7B976501D3FB06F00228EAE /* maskViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9764F1D3FB06F00228EAE /* maskViewDemoTests.m */; };
 		F7B9765B1D3FB07000228EAE /* maskViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9765A1D3FB07000228EAE /* maskViewDemoUITests.m */; };
+		F7B9766A1D3FB11000228EAE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976691D3FB11000228EAE /* TableViewController.m */; };
+		F7B9766D1D3FB1CB00228EAE /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9766C1D3FB1CB00228EAE /* ViewControllerOne.m */; };
+		F7B976701D3FB2E000228EAE /* DetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9766F1D3FB2E000228EAE /* DetailModel.m */; };
+		F7B976731D3FBA5100228EAE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976721D3FBA5100228EAE /* UIView+Extension.m */; };
+		F7B976761D3FBC3A00228EAE /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976751D3FBC3A00228EAE /* ViewControllerTwo.m */; };
+		F7B976791D3FBF1B00228EAE /* ViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976781D3FBF1B00228EAE /* ViewControllerThree.m */; };
+		F7B9767C1D3FBF9F00228EAE /* ViewControllerFour.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9767B1D3FBF9F00228EAE /* ViewControllerFour.m */; };
+		F7B9767F1D3FC02500228EAE /* ViewControllerFive.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9767E1D3FC02500228EAE /* ViewControllerFive.m */; };
+		F7B976821D3FC03700228EAE /* ViewControllerSix.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976811D3FC03700228EAE /* ViewControllerSix.m */; };
+		F7B976851D3FC22800228EAE /* UIImage+DDF.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976841D3FC22800228EAE /* UIImage+DDF.m */; };
+		F7B976881D3FC27300228EAE /* ViewControllerSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976871D3FC27300228EAE /* ViewControllerSeven.m */; };
+		F7B976961D3FCAD700228EAE /* WPShapedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B976951D3FCAD700228EAE /* WPShapedImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +49,6 @@
 		F7B976361D3FB06F00228EAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7B976381D3FB06F00228EAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7B976391D3FB06F00228EAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7B9763B1D3FB06F00228EAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F7B9763C1D3FB06F00228EAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F7B9763F1D3FB06F00228EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7B976411D3FB06F00228EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7B976441D3FB06F00228EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7B976461D3FB06F00228EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +58,30 @@
 		F7B976561D3FB06F00228EAE /* maskViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maskViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B9765A1D3FB07000228EAE /* maskViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maskViewDemoUITests.m; sourceTree = "<group>"; };
 		F7B9765C1D3FB07000228EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B976681D3FB11000228EAE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		F7B976691D3FB11000228EAE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		F7B9766B1D3FB1CB00228EAE /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		F7B9766C1D3FB1CB00228EAE /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		F7B9766E1D3FB2E000228EAE /* DetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailModel.h; sourceTree = "<group>"; };
+		F7B9766F1D3FB2E000228EAE /* DetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailModel.m; sourceTree = "<group>"; };
+		F7B976711D3FBA5100228EAE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F7B976721D3FBA5100228EAE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F7B976741D3FBC3A00228EAE /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		F7B976751D3FBC3A00228EAE /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		F7B976771D3FBF1B00228EAE /* ViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThree.h; sourceTree = "<group>"; };
+		F7B976781D3FBF1B00228EAE /* ViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThree.m; sourceTree = "<group>"; };
+		F7B9767A1D3FBF9F00228EAE /* ViewControllerFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFour.h; sourceTree = "<group>"; };
+		F7B9767B1D3FBF9F00228EAE /* ViewControllerFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFour.m; sourceTree = "<group>"; };
+		F7B9767D1D3FC02500228EAE /* ViewControllerFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFive.h; sourceTree = "<group>"; };
+		F7B9767E1D3FC02500228EAE /* ViewControllerFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFive.m; sourceTree = "<group>"; };
+		F7B976801D3FC03700228EAE /* ViewControllerSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSix.h; sourceTree = "<group>"; };
+		F7B976811D3FC03700228EAE /* ViewControllerSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSix.m; sourceTree = "<group>"; };
+		F7B976831D3FC22800228EAE /* UIImage+DDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DDF.h"; sourceTree = "<group>"; };
+		F7B976841D3FC22800228EAE /* UIImage+DDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DDF.m"; sourceTree = "<group>"; };
+		F7B976861D3FC27200228EAE /* ViewControllerSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSeven.h; sourceTree = "<group>"; };
+		F7B976871D3FC27300228EAE /* ViewControllerSeven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSeven.m; sourceTree = "<group>"; };
+		F7B976941D3FCAD700228EAE /* WPShapedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPShapedImageView.h; sourceTree = "<group>"; };
+		F7B976951D3FCAD700228EAE /* WPShapedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPShapedImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +132,16 @@
 		F7B976341D3FB06F00228EAE /* maskViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F7B9768C1D3FC73500228EAE /* category */,
 				F7B976381D3FB06F00228EAE /* AppDelegate.h */,
 				F7B976391D3FB06F00228EAE /* AppDelegate.m */,
-				F7B9763B1D3FB06F00228EAE /* ViewController.h */,
-				F7B9763C1D3FB06F00228EAE /* ViewController.m */,
-				F7B9763E1D3FB06F00228EAE /* Main.storyboard */,
+				F7B976681D3FB11000228EAE /* TableViewController.h */,
+				F7B976691D3FB11000228EAE /* TableViewController.m */,
+				F7B9766E1D3FB2E000228EAE /* DetailModel.h */,
+				F7B9766F1D3FB2E000228EAE /* DetailModel.m */,
+				F7B976941D3FCAD700228EAE /* WPShapedImageView.h */,
+				F7B976951D3FCAD700228EAE /* WPShapedImageView.m */,
+				F7B9768D1D3FC7AD00228EAE /* detailVC */,
 				F7B976411D3FB06F00228EAE /* Assets.xcassets */,
 				F7B976431D3FB06F00228EAE /* LaunchScreen.storyboard */,
 				F7B976461D3FB06F00228EAE /* Info.plist */,
@@ -138,6 +174,38 @@
 				F7B9765C1D3FB07000228EAE /* Info.plist */,
 			);
 			path = maskViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		F7B9768C1D3FC73500228EAE /* category */ = {
+			isa = PBXGroup;
+			children = (
+				F7B976831D3FC22800228EAE /* UIImage+DDF.h */,
+				F7B976841D3FC22800228EAE /* UIImage+DDF.m */,
+				F7B976711D3FBA5100228EAE /* UIView+Extension.h */,
+				F7B976721D3FBA5100228EAE /* UIView+Extension.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		F7B9768D1D3FC7AD00228EAE /* detailVC */ = {
+			isa = PBXGroup;
+			children = (
+				F7B9766B1D3FB1CB00228EAE /* ViewControllerOne.h */,
+				F7B9766C1D3FB1CB00228EAE /* ViewControllerOne.m */,
+				F7B976741D3FBC3A00228EAE /* ViewControllerTwo.h */,
+				F7B976751D3FBC3A00228EAE /* ViewControllerTwo.m */,
+				F7B976771D3FBF1B00228EAE /* ViewControllerThree.h */,
+				F7B976781D3FBF1B00228EAE /* ViewControllerThree.m */,
+				F7B9767A1D3FBF9F00228EAE /* ViewControllerFour.h */,
+				F7B9767B1D3FBF9F00228EAE /* ViewControllerFour.m */,
+				F7B9767D1D3FC02500228EAE /* ViewControllerFive.h */,
+				F7B9767E1D3FC02500228EAE /* ViewControllerFive.m */,
+				F7B976801D3FC03700228EAE /* ViewControllerSix.h */,
+				F7B976811D3FC03700228EAE /* ViewControllerSix.m */,
+				F7B976861D3FC27200228EAE /* ViewControllerSeven.h */,
+				F7B976871D3FC27300228EAE /* ViewControllerSeven.m */,
+			);
+			name = detailVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +316,6 @@
 			files = (
 				F7B976451D3FB06F00228EAE /* LaunchScreen.storyboard in Resources */,
 				F7B976421D3FB06F00228EAE /* Assets.xcassets in Resources */,
-				F7B976401D3FB06F00228EAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +340,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7B9763D1D3FB06F00228EAE /* ViewController.m in Sources */,
+				F7B9767C1D3FBF9F00228EAE /* ViewControllerFour.m in Sources */,
+				F7B976731D3FBA5100228EAE /* UIView+Extension.m in Sources */,
 				F7B9763A1D3FB06F00228EAE /* AppDelegate.m in Sources */,
+				F7B976881D3FC27300228EAE /* ViewControllerSeven.m in Sources */,
+				F7B976961D3FCAD700228EAE /* WPShapedImageView.m in Sources */,
+				F7B976821D3FC03700228EAE /* ViewControllerSix.m in Sources */,
+				F7B9766A1D3FB11000228EAE /* TableViewController.m in Sources */,
+				F7B9767F1D3FC02500228EAE /* ViewControllerFive.m in Sources */,
+				F7B976851D3FC22800228EAE /* UIImage+DDF.m in Sources */,
 				F7B976371D3FB06F00228EAE /* main.m in Sources */,
+				F7B976761D3FBC3A00228EAE /* ViewControllerTwo.m in Sources */,
+				F7B976701D3FB2E000228EAE /* DetailModel.m in Sources */,
+				F7B9766D1D3FB1CB00228EAE /* ViewControllerOne.m in Sources */,
+				F7B976791D3FBF1B00228EAE /* ViewControllerThree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F7B9763E1D3FB06F00228EAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7B9763F1D3FB06F00228EAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7B976431D3FB06F00228EAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,7 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = maskViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wp.learn.maskViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,7 +497,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = maskViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wp.learn.maskViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

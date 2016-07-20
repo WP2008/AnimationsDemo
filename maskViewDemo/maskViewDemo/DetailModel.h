@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface DetailModel : NSObject
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) Class  detailVCClass;
+
+
++ (NSArray *)loadAllDetailModel;
 
 @end
