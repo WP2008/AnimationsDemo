@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74E96FE1D44191100C76815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F74E96FD1D44191100C76815 /* main.m */; };
+		F74E97011D44191100C76815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F74E97001D44191100C76815 /* AppDelegate.m */; };
+		F74E97041D44191100C76815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74E97031D44191100C76815 /* ViewController.m */; };
+		F74E97071D44191100C76815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74E97051D44191100C76815 /* Main.storyboard */; };
+		F74E97091D44191100C76815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74E97081D44191100C76815 /* Assets.xcassets */; };
+		F74E970C1D44191100C76815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74E970A1D44191100C76815 /* LaunchScreen.storyboard */; };
+		F74E97171D44191100C76815 /* CAReplicatorLayerAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F74E97161D44191100C76815 /* CAReplicatorLayerAnimationTests.m */; };
+		F74E97221D44191100C76815 /* CAReplicatorLayerAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F74E97211D44191100C76815 /* CAReplicatorLayerAnimationUITests.m */; };
+		F74E97341D4454D700C76815 /* XLKWavePulsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F74E97331D4454D700C76815 /* XLKWavePulsLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F74E97131D44191100C76815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74E96F11D44191000C76815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74E96F81D44191100C76815;
+			remoteInfo = CAReplicatorLayerAnimation;
+		};
+		F74E971E1D44191100C76815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74E96F11D44191000C76815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74E96F81D44191100C76815;
+			remoteInfo = CAReplicatorLayerAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F74E96F91D44191100C76815 /* CAReplicatorLayerAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAReplicatorLayerAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74E96FD1D44191100C76815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F74E96FF1D44191100C76815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F74E97001D44191100C76815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F74E97021D44191100C76815 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F74E97031D44191100C76815 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F74E97061D44191100C76815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F74E97081D44191100C76815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74E970B1D44191100C76815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F74E970D1D44191100C76815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74E97121D44191100C76815 /* CAReplicatorLayerAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAReplicatorLayerAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74E97161D44191100C76815 /* CAReplicatorLayerAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerAnimationTests.m; sourceTree = "<group>"; };
+		F74E97181D44191100C76815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74E971D1D44191100C76815 /* CAReplicatorLayerAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAReplicatorLayerAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74E97211D44191100C76815 /* CAReplicatorLayerAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerAnimationUITests.m; sourceTree = "<group>"; };
+		F74E97231D44191100C76815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74E97321D4454D700C76815 /* XLKWavePulsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLKWavePulsLayer.h; sourceTree = "<group>"; };
+		F74E97331D4454D700C76815 /* XLKWavePulsLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLKWavePulsLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74E96F61D44191100C76815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74E970F1D44191100C76815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74E971A1D44191100C76815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F74E96F01D44191000C76815 = {
+			isa = PBXGroup;
+			children = (
+				F74E96FB1D44191100C76815 /* CAReplicatorLayerAnimation */,
+				F74E97151D44191100C76815 /* CAReplicatorLayerAnimationTests */,
+				F74E97201D44191100C76815 /* CAReplicatorLayerAnimationUITests */,
+				F74E96FA1D44191100C76815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F74E96FA1D44191100C76815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74E96F91D44191100C76815 /* CAReplicatorLayerAnimation.app */,
+				F74E97121D44191100C76815 /* CAReplicatorLayerAnimationTests.xctest */,
+				F74E971D1D44191100C76815 /* CAReplicatorLayerAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74E96FB1D44191100C76815 /* CAReplicatorLayerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F74E96FF1D44191100C76815 /* AppDelegate.h */,
+				F74E97001D44191100C76815 /* AppDelegate.m */,
+				F74E97021D44191100C76815 /* ViewController.h */,
+				F74E97031D44191100C76815 /* ViewController.m */,
+				F74E97321D4454D700C76815 /* XLKWavePulsLayer.h */,
+				F74E97331D4454D700C76815 /* XLKWavePulsLayer.m */,
+				F74E97051D44191100C76815 /* Main.storyboard */,
+				F74E97081D44191100C76815 /* Assets.xcassets */,
+				F74E970A1D44191100C76815 /* LaunchScreen.storyboard */,
+				F74E970D1D44191100C76815 /* Info.plist */,
+				F74E96FC1D44191100C76815 /* Supporting Files */,
+			);
+			path = CAReplicatorLayerAnimation;
+			sourceTree = "<group>";
+		};
+		F74E96FC1D44191100C76815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F74E96FD1D44191100C76815 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F74E97151D44191100C76815 /* CAReplicatorLayerAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F74E97161D44191100C76815 /* CAReplicatorLayerAnimationTests.m */,
+				F74E97181D44191100C76815 /* Info.plist */,
+			);
+			path = CAReplicatorLayerAnimationTests;
+			sourceTree = "<group>";
+		};
+		F74E97201D44191100C76815 /* CAReplicatorLayerAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F74E97211D44191100C76815 /* CAReplicatorLayerAnimationUITests.m */,
+				F74E97231D44191100C76815 /* Info.plist */,
+			);
+			path = CAReplicatorLayerAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F74E96F81D44191100C76815 /* CAReplicatorLayerAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74E97261D44191100C76815 /* Build configuration list for PBXNativeTarget "CAReplicatorLayerAnimation" */;
+			buildPhases = (
+				F74E96F51D44191100C76815 /* Sources */,
+				F74E96F61D44191100C76815 /* Frameworks */,
+				F74E96F71D44191100C76815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAReplicatorLayerAnimation;
+			productName = CAReplicatorLayerAnimation;
+			productReference = F74E96F91D44191100C76815 /* CAReplicatorLayerAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F74E97111D44191100C76815 /* CAReplicatorLayerAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74E97291D44191100C76815 /* Build configuration list for PBXNativeTarget "CAReplicatorLayerAnimationTests" */;
+			buildPhases = (
+				F74E970E1D44191100C76815 /* Sources */,
+				F74E970F1D44191100C76815 /* Frameworks */,
+				F74E97101D44191100C76815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74E97141D44191100C76815 /* PBXTargetDependency */,
+			);
+			name = CAReplicatorLayerAnimationTests;
+			productName = CAReplicatorLayerAnimationTests;
+			productReference = F74E97121D44191100C76815 /* CAReplicatorLayerAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F74E971C1D44191100C76815 /* CAReplicatorLayerAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74E972C1D44191100C76815 /* Build configuration list for PBXNativeTarget "CAReplicatorLayerAnimationUITests" */;
+			buildPhases = (
+				F74E97191D44191100C76815 /* Sources */,
+				F74E971A1D44191100C76815 /* Frameworks */,
+				F74E971B1D44191100C76815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74E971F1D44191100C76815 /* PBXTargetDependency */,
+			);
+			name = CAReplicatorLayerAnimationUITests;
+			productName = CAReplicatorLayerAnimationUITests;
+			productReference = F74E971D1D44191100C76815 /* CAReplicatorLayerAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F74E96F11D44191000C76815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wp;
+				TargetAttributes = {
+					F74E96F81D44191100C76815 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G56568L74Z;
+					};
+					F74E97111D44191100C76815 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G56568L74Z;
+						TestTargetID = F74E96F81D44191100C76815;
+					};
+					F74E971C1D44191100C76815 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G56568L74Z;
+						TestTargetID = F74E96F81D44191100C76815;
+					};
+				};
+			};
+			buildConfigurationList = F74E96F41D44191000C76815 /* Build configuration list for PBXProject "CAReplicatorLayerAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F74E96F01D44191000C76815;
+			productRefGroup = F74E96FA1D44191100C76815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74E96F81D44191100C76815 /* CAReplicatorLayerAnimation */,
+				F74E97111D44191100C76815 /* CAReplicatorLayerAnimationTests */,
+				F74E971C1D44191100C76815 /* CAReplicatorLayerAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74E96F71D44191100C76815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74E970C1D44191100C76815 /* LaunchScreen.storyboard in Resources */,
+				F74E97091D44191100C76815 /* Assets.xcassets in Resources */,
+				F74E97071D44191100C76815 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74E97101D44191100C76815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74E971B1D44191100C76815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74E96F51D44191100C76815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74E97341D4454D700C76815 /* XLKWavePulsLayer.m in Sources */,
+				F74E97041D44191100C76815 /* ViewController.m in Sources */,
+				F74E97011D44191100C76815 /* AppDelegate.m in Sources */,
+				F74E96FE1D44191100C76815 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74E970E1D44191100C76815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74E97171D44191100C76815 /* CAReplicatorLayerAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74E97191D44191100C76815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74E97221D44191100C76815 /* CAReplicatorLayerAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F74E97141D44191100C76815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74E96F81D44191100C76815 /* CAReplicatorLayerAnimation */;
+			targetProxy = F74E97131D44191100C76815 /* PBXContainerItemProxy */;
+		};
+		F74E971F1D44191100C76815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74E96F81D44191100C76815 /* CAReplicatorLayerAnimation */;
+			targetProxy = F74E971E1D44191100C76815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F74E97051D44191100C76815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74E97061D44191100C76815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F74E970A1D44191100C76815 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74E970B1D44191100C76815 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74E97241D44191100C76815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F74E97251D44191100C76815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74E97271D44191100C76815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAReplicatorLayerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.learn.CAReplicatorLayerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F74E97281D44191100C76815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAReplicatorLayerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.learn.CAReplicatorLayerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F74E972A1D44191100C76815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAReplicatorLayerAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.learn.CAReplicatorLayerAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAReplicatorLayerAnimation.app/CAReplicatorLayerAnimation";
+			};
+			name = Debug;
+		};
+		F74E972B1D44191100C76815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAReplicatorLayerAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.learn.CAReplicatorLayerAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAReplicatorLayerAnimation.app/CAReplicatorLayerAnimation";
+			};
+			name = Release;
+		};
+		F74E972D1D44191100C76815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAReplicatorLayerAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.learn.CAReplicatorLayerAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAReplicatorLayerAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F74E972E1D44191100C76815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAReplicatorLayerAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wp.learn.CAReplicatorLayerAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAReplicatorLayerAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F74E96F41D44191000C76815 /* Build configuration list for PBXProject "CAReplicatorLayerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74E97241D44191100C76815 /* Debug */,
+				F74E97251D44191100C76815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74E97261D44191100C76815 /* Build configuration list for PBXNativeTarget "CAReplicatorLayerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74E97271D44191100C76815 /* Debug */,
+				F74E97281D44191100C76815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74E97291D44191100C76815 /* Build configuration list for PBXNativeTarget "CAReplicatorLayerAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74E972A1D44191100C76815 /* Debug */,
+				F74E972B1D44191100C76815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74E972C1D44191100C76815 /* Build configuration list for PBXNativeTarget "CAReplicatorLayerAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74E972D1D44191100C76815 /* Debug */,
+				F74E972E1D44191100C76815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F74E96F11D44191000C76815 /* Project object */;
+}
