@@ -20,3 +20,8 @@
 
   通过一些demo，学习一下 CAShapeLayer 的使用，
   然后通过 ShapeLayer 实现一些复杂的动画效果
+
+### OneLoadingAnimation
+  这是一个加载动画效果，
+  ![图1.2 ](OneLoadingAnimation.gif)
+  http://www.jianshu.com/p/ce4e5f226d34
