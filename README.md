@@ -15,3 +15,8 @@
   http://www.jianshu.com/p/2e6facd8142f
   ![图1.1](http://upload-images.jianshu.io/upload_images/2208956-52102cfcf6592f6b.gif?imageMogr2/auto-orient/strip)
   ![图1.2 ](http://upload-images.jianshu.io/upload_images/2208956-cc72d790c865cdd8.gif?imageMogr2/auto-orient/strip)
+
+### CAShapeLayer
+
+  通过一些demo，学习一下 CAShapeLayer 的使用，
+  然后通过 ShapeLayer 实现一些复杂的动画效果
