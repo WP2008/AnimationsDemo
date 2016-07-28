@@ -12,9 +12,13 @@ static const CGFloat lineWidth = 1.2f;
 static const CGFloat lineSpacing = 3.0f;
 
 @interface CircleProgressView()
+// 灰色虚线
 @property (nonatomic, strong)CAShapeLayer *baseLayer;
+// 彩色虚线
 @property (nonatomic, strong)CAShapeLayer *shapeLayer;
+// 外圈灰色大圆
 @property (nonatomic, strong)CAShapeLayer *bigBaseLayer;
+// 带颜色的大圆
 @property (nonatomic, strong)CAShapeLayer *bigShapeLayer;
 
 
@@ -44,7 +48,7 @@ static const CGFloat lineSpacing = 3.0f;
     
     
     self.baseLayer = [CAShapeLayer layer];
-    self.baseLayer.lineWidth = 2.0f;
+    self.baseLayer.lineWidth = lineWidth;
     self.baseLayer.strokeColor = [UIColor whiteColor].CGColor;
     self.baseLayer.fillColor   = [UIColor clearColor].CGColor;
     self.baseLayer.lineCap =  kCALineCapRound;

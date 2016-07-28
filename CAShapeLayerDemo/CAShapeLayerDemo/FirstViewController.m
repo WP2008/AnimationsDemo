@@ -88,6 +88,7 @@
     CGSize finalSize = CGSizeMake(CGRectGetWidth(self.view.frame), 600);
     CGFloat layerHeight = finalSize.height * 0.2;
     CAShapeLayer *bottomCurveLayer = [[CAShapeLayer alloc]init];
+    
     UIBezierPath *path = [[UIBezierPath alloc]init];
     [path moveToPoint:CGPointMake(0, finalSize.height - layerHeight)];
     [path addLineToPoint:CGPointMake(0, finalSize.height - 1)];

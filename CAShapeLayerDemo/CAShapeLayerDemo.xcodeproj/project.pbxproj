@@ -169,8 +169,8 @@
 			children = (
 				F74E97771D47F02000C76815 /* SecondViewController.h */,
 				F74E97781D47F02000C76815 /* SecondViewController.m */,
-				F74E977A1D47F03100C76815 /* CircleProgressView.m */,
 				F74E977B1D47F03100C76815 /* CircleProgressView.h */,
+				F74E977A1D47F03100C76815 /* CircleProgressView.m */,
 			);
 			name = second;
 			sourceTree = "<group>";

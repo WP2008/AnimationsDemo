@@ -22,6 +22,16 @@
   然后通过 ShapeLayer 实现一些复杂的动画效果
 
 ### OneLoadingAnimation
-  这是一个加载动画效果，
+  这是一个加载动画效果 http://www.jianshu.com/p/ce4e5f226d34
+
   ![图1.2 ](OneLoadingAnimation.gif)
-  http://www.jianshu.com/p/ce4e5f226d34
+  
+
+### ZFChangeAnimation
+
+<p align="center" >
+<img src="https://github.com/WZF-Fei/ZFChangeAnimation/blob/master/ZFChangeAnimation.gif" width="266" height="500"/>
+</p>
+
+
+具体详细介绍见http://www.jianshu.com/p/1e2b8ff3519e
